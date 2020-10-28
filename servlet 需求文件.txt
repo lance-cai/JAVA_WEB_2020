@@ -13,8 +13,8 @@ servlet 需求文件
       * 會員個人頁面
   @servlet 會員登入(3.4) - 揚
     驗證方式：hash 鹽值加密
-        @html 會員登入頁面 - 燁
-	@html 登入成功頁面 - 燁
+        @html 會員登入頁面 webpage/index.html - 燁
+	@html 登入成功頁面 webpage/success.html - 燁
     會員登入控制器
 		
 
@@ -27,7 +27,7 @@ servlet 需求文件
   @html 單一文章頁面
     回覆鈕
   @servlet 新增文章
-      @html 新增文章頁面 - 揚
+      @html 新增文章頁面 webpage/new_article.html - 揚
           標題：新建文章
 	  表單：
 	      標題
