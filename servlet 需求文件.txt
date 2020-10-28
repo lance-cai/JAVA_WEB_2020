@@ -3,7 +3,7 @@ servlet 需求文件
 會員管理
     @servlet 會員申請(3.4) - 小浪
         加密方式：hash 鹽值加密
-    @html 會員註冊頁面 - 燁
+    @html 會員註冊頁面 webpage/register.html - 燁
         * 輸入註冊帳號密碼
         * 送出
   @servlet 會員註冊過濾器
@@ -14,7 +14,7 @@ servlet 需求文件
   @servlet 會員登入(3.4) - 揚
     驗證方式：hash 鹽值加密
         @html 會員登入頁面 webpage/index.html - 燁
-	@html 登入成功頁面 webpage/success.html - 燁
+	@html 登入成功頁面 webpage/member.html - 燁
     會員登入控制器
 		
 
